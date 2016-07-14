@@ -20,7 +20,7 @@ function testModifyDebugging() {
 }
 
 function pullModule(module) {
-  moduleurl = "https://raw.githubusercontent.com/IAP-Reloaded/Modify.js/master/" + module + ".js";
+  moduleurl = "https://cdn.rawgit.com/IAP-Reloaded/Modify.js/master/" + module + ".js";
   if (mdebug == true) {
     console.log("Pulling module " + module + " from GitHub resp... (Full URL for it was " + moduleurl + ")");
   }
