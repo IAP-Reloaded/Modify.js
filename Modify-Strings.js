@@ -1,23 +1,4 @@
 "use strict";
-var mdebug = false;
-
-function enableModifyDebugging() {
-  mdebug = true;
-}
-
-function disableModifyDebugging() {
-  mdebug = false;
-}
-
-function toggleModifyDebugging() {
-  mdebug = !mdebug;
-}
-
-function testModifyDebugging() {
-  if (mdebug == true) {
-    console.log("Debugging in Modify.js is enabled.");
-  }
-}
 
 function cutOffAt(amount, string) {
   if (mdebug == true) {
